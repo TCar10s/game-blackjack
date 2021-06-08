@@ -21,7 +21,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/TCa10s/game-blacjack/main/assets/img/capture.jpeg)
+![screenshot](https://raw.githubusercontent.com/TCa10s/game-blackjack/main/assets/img/capture.jpeg)
 
 <!-- CONTACT -->
 ## Contact

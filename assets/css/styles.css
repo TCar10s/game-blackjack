@@ -1,0 +1,40 @@
+:root {
+    --color-primary: #2f4f30;
+    --white: #FFFFFF;
+    --black: #181818;
+}
+
+html,
+body {
+  margin: 0px;
+  background-color: var(--color-primary);
+  color: var(--white);
+  font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+  text-align: center;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.buttons {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.card {
+    width: 12.5rem;
+    left: 10rem;
+    margin-left: -7.5rem;
+}
+
+#player-cards, #computer-cards {
+    height: 180px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lumen/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Blackjack</title>
+</head>
+
+<body>
+
+    <header class="title">
+        <h1>Blackjack</h1>
+    </header>
+
+    <div class="row mt-2">
+        <div class="col text-center my-4" id="divButtons">
+            <button id="btn-new-game" class="btn btn-danger buttons">New game</button>
+            <button id="btn-order-card" disabled="disabled" class="btn btn-primary buttons">Order card</button>
+            <button id="btn-stop" disabled="disabled" class="btn btn-primary buttons">Stop</button>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1 class="my-3">Player #1 - <small>0</small></h1>
+            <div class="d-flex divCards" id="player-cards">
+            </div>
+        </div>
+    </div>
+
+    <div class="row container mt-4">
+        <div class="col">
+            <h1 class="my-3">Computer - <small>0</small></h1>
+            <div class="d-flex divCards" id="computer-cards">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/game-min.js"></script>
+    <script>
+        document.querySelector('#btn-new-game').addEventListener('click', () => {
+            myModule.newGame();
+        });
+    </script>
+</body>
+
+</html>

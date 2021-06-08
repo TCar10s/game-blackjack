@@ -8,20 +8,10 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
 <!-- OVERVIEW -->
-
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/TCa10s/game-blackjack/main/assets/img/capture.jpeg)
+![screenshot](https://raw.githubusercontent.com/TCar10s/game-blackjack/main/assets/img/capture.jpeg)
 
 <!-- CONTACT -->
 ## Contact
